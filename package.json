@@ -1,6 +1,6 @@
 {
   "name": "find-article",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a script to quickly find research articles based on various criteria",
   "main": "find-article.js",
   "dependencies": {
@@ -10,11 +10,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node find-article"
+    "test": "node redi-research"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redickau/find-article.git"
+    "url": "git+https://github.com/redickau/redi-research.git"
   },
   "keywords": [
     "node",
@@ -27,7 +27,7 @@
   "author": "Austin Redick",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redickau/find-article/issues"
+    "url": "https://github.com/redickau/redi-research/issues"
   },
-  "homepage": "https://github.com/redickau/find-article#readme"
+  "homepage": "https://github.com/redickau/redi-research#readme"
 }
