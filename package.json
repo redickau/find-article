@@ -1,0 +1,33 @@
+{
+  "name": "find-article",
+  "version": "0.0.1",
+  "description": "a script to quickly find research articles based on various criteria",
+  "main": "find-article.js",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "readline": "^1.3.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node find-article"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redickau/find-article.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "articles",
+    "journals",
+    "research",
+    "search"
+  ],
+  "author": "Austin Redick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redickau/find-article/issues"
+  },
+  "homepage": "https://github.com/redickau/find-article#readme"
+}
