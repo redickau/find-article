@@ -1,6 +1,6 @@
 {
   "name": "find-article",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a script to quickly find research articles based on various criteria",
   "main": "find-article.js",
   "dependencies": {
