@@ -16,8 +16,8 @@ request(`https://doaj.org/api/v1/search/articles/${commander.query}?page=${comma
     const resultObj = JSON.parse(body);
     const resultArr = resultObj.results;
 
-    console.log("Results:");
-    console.log("--------");
+    console.log(`\nPage ${commander.pageNum} Results:`);
+    console.log("-----------------");
     resultArr.forEach((currentArticle, index) => {
         const articleObj = {};
         const articleNum = commander.maxResults * (commander.pageNum - 1) + (index + 1);
@@ -28,9 +28,10 @@ request(`https://doaj.org/api/v1/search/articles/${commander.query}?page=${comma
         articleObj.link = getAllUrls(currentArticle);
 
         arrayOfArticles.push(articleObj);
-        console.log(`\nArtical #${articleNum}`);
-        console.log(articleObj);
+        console.log(`Article #${articleNum}`);
+        console.log("", articleObj, "\n");
     });
+    console.log(`End of Page ${commander.pageNum}`);
 });
 
 function getAllAuthors(article) {
