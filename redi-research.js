@@ -1,5 +1,4 @@
 const commander = require("commander");
-const readline = require("readline");
 const request = require("request");
 
 const arrayOfArticles = [];
@@ -16,8 +15,9 @@ request(`https://doaj.org/api/v1/search/articles/${commander.query}?page=${comma
     const resultObj = JSON.parse(body);
     const resultArr = resultObj.results;
 
-    console.log(`\nPage ${commander.pageNum} Results:`);
-    console.log("-----------------");
+    console.log(`Total number of articles: ${resultObj.total}\nMaximum articles per page: ${commander.maxResults}`);
+    console.log(`\nPage ${commander.pageNum}:`);
+    console.log("---------\n");
     resultArr.forEach((currentArticle, index) => {
         const articleObj = {};
         const articleNum = commander.maxResults * (commander.pageNum - 1) + (index + 1);
