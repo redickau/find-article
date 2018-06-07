@@ -21,12 +21,13 @@ $ node redi-research
 
 ### Arguments
 Various flags can be set for each search:
-Flag|Required|Default|Description
-----|--------|-------|-----------
-`-q`, `--query`|`true`|`"hello world"`|`specify string search parameter`
-`-p`, `--page`|`false`|`1`|`specify which page of results to search for`
-`-s`, `--page-size`|`false`|`10`|`specify number of articles per page (max 100)`
-`-l`, `--language`|`false`|`null`|`specify string language identifier`
+
+|Flag|Required|Default|Description|
+|----|--------|-------|-----------|
+|`-q`, `--query`|`true`|`"hello world"`|`specify string search parameter`|
+|`-p`, `--page`|`false`|`1`|`specify which page of results to search for`|
+|`-s`, `--page-size`|`false`|`10`|`specify number of articles per page (max 100)`|
+|`-l`, `--language`|`false`|`null`|`specify string language identifier`|
 
 ### Examples
 Using the `--query` flag:
