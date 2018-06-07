@@ -4,7 +4,7 @@ A node script to find research articles.
 # Installation
 In order to run the script, please make sure you have [NodeJS](https://nodejs.org/en/) and [NPM](https://docs.npmjs.com/getting-started/installing-node) installed by typing nthe following in a command prompt:
 ```
-$ node -v // returnsversion number for NodeJS
+$ node -v // returns version number for NodeJS
 $ npm -v // returns version number for NPM
 ```
 
@@ -21,12 +21,12 @@ $ node redi-research
 
 ### Arguments
 Various flags can be set for each search:
-|Flag|Required|Default|Description|
-|---|---|---|---|
-|`-q`, `--query`|`true`|`"hello world"`|`specify string search parameter`|
-|`-p`, `--page`|`false`|`1`|`specify which page of results to search for`|
-|`-s`, `--page-size`|`false`|`10`|`specify number of articles per page (max 100)`|
-|`-l`, `--language`|`false`|`null`|`specify string language identifier`|
+Flag|Required|Default|Description
+----|--------|-------|-----------
+`-q`, `--query`|`true`|`"hello world"`|`specify string search parameter`
+`-p`, `--page`|`false`|`1`|`specify which page of results to search for`
+`-s`, `--page-size`|`false`|`10`|`specify number of articles per page (max 100)`
+`-l`, `--language`|`false`|`null`|`specify string language identifier`
 
 ### Examples
 Using the `--query` flag:

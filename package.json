@@ -1,11 +1,10 @@
 {
   "name": "redi-research",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a script to quickly find research articles based on various criteria",
   "main": "redi-research.js",
   "dependencies": {
     "commander": "^2.15.1",
-    "readline": "^1.3.0",
     "request": "^2.87.0"
   },
   "devDependencies": {},
